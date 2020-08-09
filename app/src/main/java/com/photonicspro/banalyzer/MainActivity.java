@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,6 +84,10 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            Intent activity2Intent3 = new Intent(getApplicationContext(), Settings.class);
+            startActivity(activity2Intent3);
+
             return true;
         }
 

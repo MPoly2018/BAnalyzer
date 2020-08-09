@@ -13,4 +13,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_result">Result</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="saved_humidity" />
+    <string name="saved_temperature" />
 </resources>
